@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.npmLogo {
+  width: 50px;
+}
+
+.searchImg {
+  width: 20px;
+}
+
+#search {
+  padding-left: 20px;
+}
+
+.form-search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form-search label {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 8px;
+}
+
+.form-search input {
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.5);
+  border: 0;
+  height: 40px;
+}
+
+.form-search button {
+  color: white;
+  border: 0;
+  height: 40px;
+  width: 75px;
+  background-color: #fb3e44;
+}
+
+.form-search {
+}
+
+#search {
+  width: 90%;
+}
+
+#npm_search {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  width: 90%;
+}
+
+.join_and_login {
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+  background: orange;
+}
